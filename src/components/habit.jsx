@@ -20,6 +20,7 @@ class Habit extends Component {
         -> 콜백함수도 부모로부터 전달받기
         => 이 컴포넌트는 단순한 역할로.
     */
+
     const { name, count } = this.props.habit;
 
     return (
